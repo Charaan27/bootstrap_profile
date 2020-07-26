@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/59216b6c2f.js" crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="profile_style.css">
+</head>
+
+<body>
+    <div class="container">
+
+    <!-- Header -->
+    <header id="main-header">
+        <div class="row no-gutters">
+            <div class="col-lg-4 col-md-5">
+                <img src="person1.jpg" alt="profile" class="img-fluid">
+            </div>
+            <div class="col-lg-8 col-md-7">
+                <div class="d-flex flex-column">
+                    <div class="p-5 bg-dark text-white">
+                        <div class="d-flex flex-row justify-content-between align-items-center">
+                            <h1 class="display-4">Charaan</h1>
+                            <div>
+                                <a href="https://www.instagram.com/char.aah27" class="text-white">
+                                    <i class="fa fa-instagram fa-2x"></i>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.linkedin.com/in/charaan-s-3646b11a7" class="text-white">
+                                    <i class="fa fa-linkedin fa-2x"></i>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://github.com/Charaan27" class="text-white">
+                                    <i class="fa fa-github fa-2x"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 bg-black">
+                        Passionate on Web development       
+                    </div>
+                    <div>
+                        <div class="d-flex flex-row text-white align-items-stretch text-center">
+                            <div class="menu-item p-4 bg-primary" data-toggle="collapse" data-target="#home">
+                                <i class="fa fa-home fa-3x d-block"></i>
+                                <span>Home</span>
+                            </div>
+                            <div class="menu-item p-4 bg-success" data-toggle="collapse" data-target="#resume">
+                                <i class="fa fa-graduation-cap fa-3x d-block"></i>
+                                <span>Resume</span>
+                            </div>
+                            <div class="menu-item p-4 bg-warning" data-toggle="collapse" data-target="#work">
+                                <i class="fa fa-folder-open fa-3x d-block"></i>
+                                <span>Work</span>
+                            </div>
+                            <div class="menu-item p-4 bg-danger" data-toggle="collapse" data-target="#contact">
+                                <i class="fa fa-envelope fa-3x d-block"></i>
+                                <span>Contact</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+
+
+
+    <!-- Home section -->
+    <div id="home" class="collapse-show">
+        <div class="card">
+            <div class="card-body bg-primary text-white py-4">
+                <h2>Welcome to my Portfolio</h2>
+                <p class="lead">I'm a 19 yo student, currently working on enhancing my skills in web development, and Python Programming. My areas of interest lies in the domains of Web development, Deep Learning, Internet of Things and Python Programming.</p>
+            </div>
+        </div>
+        <div class="card py-4">
+            <div class="card-body">
+                <h3>My Skills</h3>
+                <p class="lead">The following illustration expresses the skills I possess in an abstract manner.</p>
+                <hr>
+                <h4>HTML5</h4>
+                <div class="progress my-3">
+                    <div class="progress-bar bg-primary" style="width:80%"></div>
+                </div>
+                <h4>CSS3</h4>
+                <div class="progress my-3">
+                    <div class="progress-bar bg-primary" style="width:75%"></div>
+                </div>
+                <h4>Python</h4>
+                <div class="progress my-3">
+                    <div class="progress-bar bg-primary" style="width:50%"></div>
+                </div>
+                <h4>Bootstrap</h4>
+                <div class="progress my-3">
+                    <div class="progress-bar bg-primary" style="width:40%"></div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="card my-5">
+            <div class="card-header" data-toggle="collapse" data-target="#collap1">
+                <h5>Collapse</h5>
+            </div>
+            <div class="card-body text-white text-center bg-warning collapse" id="collap1">
+                <h6>Hey there!</h6>
+                <p>Check out my resume and work, by clicking the buttons above!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Resume section -->
+    <div id="resume" class="collapse-show">
+        <div class="card card-body bg-success text-white py-5">
+            <h2>My Resume</h2>
+            <p class="lead">I hereby present you, my resume, which encompasses the skills I possess and the achievements I've made.</p>
+        </div>
+
+        <div class="card card-body py-5">
+            <h3>School and College</h3>
+            <p>I did my schooling at N.S.N. Matriculation Higher Secondary School, Chitlapakkam, Chennai - 64; and I am currently pursuing a bachelors degree, in Electronics and Communications Engineering at Madras Institute of Technology Campus, Anna University, Chromepet, Chennai - 44.</p>
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h4>Projects made</h4>
+                            <p class="card-text">
+                                A brief note on the projects that I've made, is listed below.
+                            </p>
+                            <p class="p-2 mb-3 bg-dark text-white">
+                                Smart dustbin setup, using Arduino Uno Microcontroller Board 
+                            </p>
+                            <p class="p-2 mb-3 bg-dark text-white">
+                                Prototype of a miniature power line detecting device.
+                            </p>
+                            <p class="p-2 mb-3 bg-dark text-white">
+                                Regression models, based on Machine Learning using Google Colabatory 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <h6 class="text-muted">Date: 2019-2020</h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h4>Workshops</h4>
+                            <p class="card-text">
+                                This list features the workshops I've attended.
+                            </p>
+                            <p class="p-2 mb-3 bg-dark text-white">
+                                Frontend Development by Skill Safari (currently undergoing) 
+                            </p>
+                            <p class="p-2 mb-3 bg-dark text-white">
+                                Introduction to Machine Learning conducted by Google Developers
+                            </p>
+                            <p class="p-2 mb-3 bg-dark text-white">
+                                Introduction to Arduino programming at IIT-Madras Research Park  
+                             </p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <h6 class="text-muted">Date: 2019-2020</h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h4>Achievements</h4>
+                            <p class="card-text">
+                                The following list includes the achievements, I've made.
+                            </p>
+                            <p class="p-2 mb-3 bg-dark text-white">
+                                Won the first place in First Years Project Exhibit, in my college.
+                            </p>
+                            <p class="p-2 mb-3 bg-dark text-white">
+                                Maintained a CGPA of 9.8 points, in my college (at present).
+                            </p>
+                            <p class="p-2 mb-3 bg-dark text-white">
+                                Conferred the title of Best All-Rounder Award, in my school.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <h6 class="text-muted">Date: 2019</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Work section -->
+    <div id="work" class="collapse-show">
+        <div class="card card-body bg-warning text-white py-5">
+            <h2>My Works</h2>
+            <p class="lead">Take a look at some of my works! I'm sure you'll like it</p>
+        </div>
+        <div class="card card-body py-5">
+            <h3>What I've built?</h3>
+            <p>Apart from learning electronics and programming, I've also shown interest in photography. I'm an avid photographer, and I also spend quality time in taking photos very often. Here are some of the pictures I clicked.</p>
+            <div class="row no-gutters">
+                <div class="col-md-3">
+                    <a href="#" data-toggle="lightbox">
+                      <img src="img1.jpg" alt="work" class="img-fluid">
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="#" data-toggle="lightbox">
+                      <img src="img2.jpg" alt="work" class="img-fluid">
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="#" data-toggle="lightbox">
+                      <img src="img3.jpg" alt="work" class="img-fluid">
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="#" data-toggle="lightbox">
+                      <img src="img4.jpg" alt="work" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row no-gutters">
+                <div class="col-md-3">
+                    <a href="#" data-toggle="lightbox">
+                      <img src="img5.jpg" alt="work" class="img-fluid">
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="#" data-toggle="lightbox">
+                      <img src="img6.jpg" alt="work" class="img-fluid">
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="#" data-toggle="lightbox">
+                      <img src="img7.jpg" alt="work" class="img-fluid">
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="#" data-toggle="lightbox">
+                      <img src="img8.jpg" alt="work" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact section -->
+    <div id="contact" class="collapse-show">
+        <div class="card card-body bg-danger text-white py-5">
+            <h2>Contact</h2>
+            <p class="lead">If you feel satisfied with my resume and my works, and if you wish to get in touch with me, here's what you're going to do.</p>
+        </div>
+        <div class="card card-body py-5">
+            <h3>Get In Touch</h3>
+            <p>Kindly fill up this form, to get in touch with me. Also don't forget to give your most valuable feedback on my resume and this website. It'll be of great help. Thank you!</p>
+        </div>
+        <form>
+            <div class="form-group">
+                <div class="input-group input-group-lg">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text bg-danger text-white">
+                      <i class="fa fa-user"></i>
+                    </span>
+                  </div>
+                  <input type="text" class="form-control bg-dark text-white" placeholder="Name">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group input-group-lg">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text bg-danger text-white">
+                      <i class="fa fa-envelope"></i>
+                    </span>
+                  </div>
+                  <input type="email" class="form-control bg-dark text-white" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group input-group-lg">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text bg-danger text-white">
+                      <i class="fas fa-pencil-alt"></i>
+                    </span>
+                  </div>
+                  <textarea class="form-control bg-dark text-white" placeholder="Message"></textarea>
+                </div>
+            </div>
+            <input type="Submit" value="Submit" class="btn btn-danger btn-block btn-lg">
+        </form>
+        <br>
+        <br>         
+    </div>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="p-5 bg-dark text-white">
+        <div class="row">
+          <div class="col-md-6">
+            <a href="#" class="btn btn-outline-light">
+              <i class="fa fa-cloud"></i> Download Resume
+            </a>
+          </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <script>
+        $('.menu-item').click(function () {
+             $('.collapse').collapse('hide');
+        });
+    </script>
+
+   
+</body>
+</html>
